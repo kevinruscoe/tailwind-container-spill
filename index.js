@@ -22,5 +22,5 @@ module.exports = function({ addUtilities, theme }) {
         }
     }
   
-    addUtilities(containers, ['responsive']);
+    addUtilities(containers);
 }
