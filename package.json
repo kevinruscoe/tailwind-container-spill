@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-container-spill",
+  "version": "1.0.0",
+  "description": "A spillable container for tailwind.",
+  "main": "container.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinruscoe/tailwind-container-spill.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Kevin Ruscoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinruscoe/tailwind-container-spill/issues"
+  },
+  "homepage": "https://github.com/kevinruscoe/tailwind-container-spill#readme"
+}
