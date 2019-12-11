@@ -21,3 +21,9 @@ module.exports = {
 ## Use it
 
 `<div class='container--spill'>`
+
+Oh, atm it's always centered, because who the hell doesn't center containers?
+
+## Demo
+
+Kinda like https://codepen.io/kevdotbadger/pen/xxbVOMG
