@@ -4,7 +4,7 @@ Containers are great because they contain stuff. The problem is if your containe
 
 ## Installation
 
-Run `npm i kevinruscoe/tailwindcss-container-spill` and require it like
+Run `npm i kevinruscoe/tailwindcss-container-spill` and require it like.
 
 ```
 module.exports = {
@@ -22,14 +22,16 @@ module.exports = {
 
 `<div class='container--spill'>`
 
-The options are the same as tailwind's container, so you've got
+The options are the same as tailwind's container, so you've got:
 
 - Center. Should the container be centered by default.
 - Padding. Any padding to apply to the container.
 
+The plugin piggybacks on the container options, so they're defined under the container namespace.
+
 ```
 theme: {
-  'container-spill': {
+  container: {
     center: true,
     padding: '.75rem'
   }
