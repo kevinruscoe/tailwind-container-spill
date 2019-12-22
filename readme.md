@@ -4,7 +4,7 @@ Containers are great because they contain stuff. The problem is if your containe
 
 ## Installation
 
-Run `npm i kevinruscoe/tailwind-container-spill` and require it like
+Run `npm i kevinruscoe/tailwindcss-container-spill` and require it like.
 
 ```
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('tailwind-container-spill')
+    require('tailwindcss-container-spill')
   ]
 }
 ```
@@ -22,7 +22,21 @@ module.exports = {
 
 `<div class='container--spill'>`
 
-Oh, atm it's always centered, because who the hell doesn't center containers?
+The options are the same as tailwind's container, so you've got:
+
+- Center. Should the container be centered by default.
+- Padding. Any padding to apply to the container.
+
+The plugin piggybacks on the container options, so they're defined under the container namespace.
+
+```
+theme: {
+  container: {
+    center: true,
+    padding: '.75rem'
+  }
+}
+```
 
 ## Demo
 

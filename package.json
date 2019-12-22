@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-container-spill",
+  "name": "tailwindcss-container-spill",
   "version": "1.0.0",
   "description": "A spillable container for tailwind.",
   "main": "index.js",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinruscoe/tailwind-container-spill.git"
+    "url": "git+https://github.com/kevinruscoe/tailwindcss-container-spill.git"
   },
   "keywords": [
     "tailwind",
     "plugin"
   ],
   "author": "Kevin Ruscoe",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevinruscoe/tailwind-container-spill/issues"
+    "url": "https://github.com/kevinruscoe/tailwindcss-container-spill/issues"
   },
   "homepage": "https://github.com/kevinruscoe/tailwind-container-spill#readme",
   "dependencies": {},
