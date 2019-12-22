@@ -11,12 +11,17 @@
     "url": "git+https://github.com/kevinruscoe/tailwind-container-spill.git"
   },
   "keywords": [
-    "tailwind", "plugin"
+    "tailwind",
+    "plugin"
   ],
   "author": "Kevin Ruscoe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kevinruscoe/tailwind-container-spill/issues"
   },
-  "homepage": "https://github.com/kevinruscoe/tailwind-container-spill#readme"
+  "homepage": "https://github.com/kevinruscoe/tailwind-container-spill#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^1.1.4"
+  }
 }
