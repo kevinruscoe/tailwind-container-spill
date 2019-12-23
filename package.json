@@ -1,25 +1,27 @@
 {
-  "name": "tailwindcss-container-spill",
+  "name": "tailwindcss-container-bg-w-screen",
   "version": "1.0.0",
   "description": "A spillable container for tailwind.",
-  "main": "index.js",
+  "main": "tailwindcss-container-bg-w-screen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinruscoe/tailwindcss-container-spill.git"
+    "url": "git+https://github.com/kevinruscoe/tailwindcss-container-bg-w-screen.git"
   },
   "keywords": [
     "tailwind",
-    "plugin"
+    "plugin",
+    "tailwindcss",
+    "tailwindcss-plugin"
   ],
   "author": "Kevin Ruscoe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevinruscoe/tailwindcss-container-spill/issues"
+    "url": "https://github.com/kevinruscoe/tailwindcss-container-bg-w-screen/issues"
   },
-  "homepage": "https://github.com/kevinruscoe/tailwind-container-spill#readme",
+  "homepage": "https://github.com/kevinruscoe/tailwindcss-container-bg-w-screen#readme",
   "dependencies": {},
   "devDependencies": {
     "tailwindcss": "^1.1.4"

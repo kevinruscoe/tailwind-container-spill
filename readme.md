@@ -1,10 +1,14 @@
 # WTF is this?
 
-Containers are great because they contain stuff. The problem is if your container needs stretch the width of the browser, whilst still containing it's children, you often need another wrapping div. With the power of calc and transparent borders, you only need a simple class.
+Containers are great because they contain stuff. The problem is if your container needs to stretch the width of the browser, whilst still containing it's children, you often need another wrapping div. With the power of calc and transparent borders, you only need a simple class.
+
+## Why borders?
+
+I needed to maintain padding, borders felt a decent alternative. Also, who the hell puts borders on a container?
 
 ## Installation
 
-Run `npm i kevinruscoe/tailwindcss-container-spill` and require it like.
+Run `npm i kevinruscoe/tailwindcss-container-bg-w-screen` and require it like.
 
 ```
 module.exports = {
@@ -13,21 +17,19 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('tailwindcss-container-spill')
+    require('tailwindcss-container-bg-w-screen')
   ]
 }
 ```
 
 ## Use it
 
-`<div class='container--spill'>`
+`<div class='container-bg-w-screen'>`
 
-The options are the same as tailwind's container, so you've got:
+The options highjack the default container options.
 
 - Center. Should the container be centered by default.
 - Padding. Any padding to apply to the container.
-
-The plugin piggybacks on the container options, so they're defined under the container namespace.
 
 ```
 theme: {
